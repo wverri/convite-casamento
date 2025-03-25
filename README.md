@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# Convite de Casamento Digital - Andréia & Willian
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Convite de Casamento](./src/assets/hero-gb.jpg)
 
-## Available Scripts
+Um elegante site de convite de casamento, desenvolvido com React, estilizado com Styled Components e com funcionalidades como galeria de fotos, contagem regressiva, informações do evento e mapa da localização.
 
-In the project directory, you can run:
+## 📋 Visão Geral
 
-### `npm start`
+Este projeto consiste em um site de convite de casamento digital, com uma interface elegante e responsiva, adaptada para visualização em dispositivos móveis e desktop. O convite inclui:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Seção Hero com detalhes do casal e data
+- Contagem regressiva para o grande dia
+- Informações sobre cerimônia e recepção
+- Galeria de fotos do casal
+- Mapa interativo com localização do evento
+- Informações sobre presentes e lista de casamento
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Tecnologias Utilizadas
 
-### `npm test`
+- React.js
+- Styled Components
+- React Router DOM
+- React Leaflet (para mapas)
+- React Icons
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💻 Instalação e Uso
 
-### `npm run build`
+Para executar este projeto localmente:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/convite-casamento.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Entre no diretório
+cd convite-casamento
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Instale as dependências
+npm install
 
-### `npm run eject`
+# Execute o servidor de desenvolvimento
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Para gerar uma versão de produção:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm run build
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🔧 Estrutura do Projeto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+/src
+  /assets        # Imagens, fontes e arquivos estáticos
+  /components    # Componentes React reutilizáveis
+  /styles        # Estilos globais e temas
+  App.js         # Componente principal
+  index.js       # Ponto de entrada do React
+```
 
-## Learn More
+## ✨ Funcionalidades
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Galeria de Fotos
+Exibe fotos do casal com um visualizador de imagens em modal.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Contagem Regressiva
+Contador dinâmico mostrando dias, horas, minutos e segundos até a data do casamento.
 
-### Code Splitting
+### Mapa Interativo
+Implementado com React Leaflet, mostra a localização exata do evento.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Layout Responsivo
+Design adaptado para qualquer tamanho de tela, desde dispositivos móveis até desktops.
 
-### Analyzing the Bundle Size
+## 🎨 Personalização
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Para personalizar este projeto:
 
-### Making a Progressive Web App
+1. **Imagens**: Substitua as imagens na pasta `/src/assets`
+2. **Cores**: Modifique as variáveis CSS em `/src/index.css`
+3. **Textos**: Atualize textos e informações diretamente nos componentes
+4. **Data do evento**: Altere a data no componente de contagem regressiva
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📝 Como implantar
 
-### Advanced Configuration
+O site pode ser facilmente implantado usando:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [Netlify](https://netlify.com)
+- [Vercel](https://vercel.com)
+- [GitHub Pages](https://pages.github.com)
 
-### Deployment
+## 📄 Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para obter mais detalhes.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desenvolvido com 💖 por Willian para Andréia | 2025
