@@ -10,6 +10,11 @@ import img5 from '../assets/couple5.jpg';
 import img6 from '../assets/couple6.jpg';
 import img7 from '../assets/couple7.jpg';
 import img8 from '../assets/couple8.jpg';
+import img9 from '../assets/couple9.jpg';
+import img10 from '../assets/couple10.jpg';
+import img11 from '../assets/couple11.jpg';
+import img12 from '../assets/couple12.jpg';
+
 
 const GallerySection = styled.section`
   padding: 80px 0;
@@ -150,7 +155,7 @@ const Gallery = () => {
   const [currentImage, setCurrentImage] = useState(0);
   
   // Usando as imagens importadas agora
-  const images = [img1, img2, img3, img4, img5, img6, img7, img8];
+  const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12];
   
   const openModal = (index) => {
     setCurrentImage(index);

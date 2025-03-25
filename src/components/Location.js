@@ -123,7 +123,7 @@ const Location = () => {
             
             <InfoItem>
               <InfoIcon><FaClock /></InfoIcon>
-              <InfoText>A partir das 18h, após a cerimônia.</InfoText>
+              <InfoText>A partir das 17h, após a cerimônia.</InfoText>
             </InfoItem>
             
             <InfoItem>
