@@ -155,7 +155,7 @@ const Hero = () => {
         <Names>Andréia <Ampersand>&</Ampersand> Willian</Names>
         <DateDisplay>30 de Abril de 2025</DateDisplay>
         <Invitation>
-          Temos a alegria de convidar você para celebrar nosso casamento!
+          Temos a alegria de convidar você para celebrar conosco o nosso casamento!
         </Invitation>
       </ContentWrapper>
       <ScrollDown href="#evento">

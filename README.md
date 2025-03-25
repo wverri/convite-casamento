@@ -2,7 +2,7 @@
 
 ![Convite de Casamento](./src/assets/hero-gb.jpg)
 
-Um elegante site de convite de casamento, desenvolvido com React, estilizado com Styled Components e com funcionalidades como galeria de fotos, contagem regressiva, informações do evento e mapa da localização.
+Um elegante site de convite de casamento, desenvolvido com React, estilizado com Styled Components e com funcionalidades como galeria de fotos, contagem regressiva, informações do evento, mapa da localização e sistema de confirmação de presença integrado ao Google Sheets.
 
 ## 📋 Visão Geral
 
@@ -13,6 +13,7 @@ Este projeto consiste em um site de convite de casamento digital, com uma interf
 - Informações sobre cerimônia e recepção
 - Galeria de fotos do casal
 - Mapa interativo com localização do evento
+- Formulário de confirmação de presença com integração ao Google Sheets
 - Informações sobre presentes e lista de casamento
 
 ## 🚀 Tecnologias Utilizadas
@@ -22,6 +23,7 @@ Este projeto consiste em um site de convite de casamento digital, com uma interf
 - React Router DOM
 - React Leaflet (para mapas)
 - React Icons
+- Google Apps Script (para integração com Google Sheets)
 
 ## 💻 Instalação e Uso
 
@@ -69,6 +71,13 @@ Contador dinâmico mostrando dias, horas, minutos e segundos até a data do casa
 ### Mapa Interativo
 Implementado com React Leaflet, mostra a localização exata do evento.
 
+### Confirmação de Presença
+Formulário que permite aos convidados:
+- Confirmar presença ou recusar o convite
+- Informar o nome completo e telefone para contato
+- Adicionar acompanhantes dinamicamente
+- Enviar dados diretamente para uma planilha do Google Sheets para fácil gerenciamento
+
 ### Layout Responsivo
 Design adaptado para qualquer tamanho de tela, desde dispositivos móveis até desktops.
 
@@ -80,6 +89,18 @@ Para personalizar este projeto:
 2. **Cores**: Modifique as variáveis CSS em `/src/index.css`
 3. **Textos**: Atualize textos e informações diretamente nos componentes
 4. **Data do evento**: Altere a data no componente de contagem regressiva
+5. **Google Sheets**: Configure sua própria planilha com o script fornecido
+
+## 📊 Configuração do Google Sheets
+
+Para configurar a integração com Google Sheets:
+
+1. Crie uma nova planilha no Google Sheets
+2. Adicione cabeçalhos: Data/Hora, Nome Principal, Telefone, Presença Confirmada, Acompanhantes
+3. Acesse "Extensões" > "Apps Script"
+4. Cole o código do arquivo `script.gs` fornecido neste projeto
+5. Implante como aplicativo da web, com acesso "Qualquer pessoa"
+6. Copie a URL gerada e atualize no componente `ConfirmationForm.js`
 
 ## 📝 Como implantar
 

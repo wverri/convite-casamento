@@ -111,7 +111,7 @@ const EventDetails = () => {
             </IconContainer>
             <CardTitle>Cerimônia</CardTitle>
             <CardText>
-              A cerimônia de casamento será realizada às 16h do dia 30 de Abril de 2025. No cartório do Colorado.
+              A cerimônia de casamento será realizada no cartório do Colorado às 16h do dia 30 de Abril de 2025.
               Devido à limitação de espaço, somente 20 convidados poderão participar.
             </CardText>
           </EventCard>
