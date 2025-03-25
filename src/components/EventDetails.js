@@ -122,7 +122,7 @@ const EventDetails = () => {
             </IconContainer>
             <CardTitle>Comemoração</CardTitle>
             <CardText>
-              Após a cerimônia, gostaríamos de celebrar este momento com uma pequena comemoração
+              Após a cerimônia, gostaríamos de celebrar este momento com uma pequena recepção
               no Restaurante Potiguar em Planaltina-DF, a partir das 17h.
             </CardText>
           </EventCard>
