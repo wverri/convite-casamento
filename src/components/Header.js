@@ -100,6 +100,7 @@ const Header = () => {
           <NavItem><NavLink href="#evento">O Evento</NavLink></NavItem>
           <NavItem><NavLink href="#local">Local</NavLink></NavItem>
           <NavItem><NavLink href="#galeria">Galeria</NavLink></NavItem>
+          <NavItem><NavLink href="#confirmacao">Confirmação</NavLink></NavItem>
         </NavLinks>
       </Nav>
     </HeaderContainer>

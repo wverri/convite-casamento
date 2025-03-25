@@ -7,6 +7,7 @@ import Location from './components/Location';
 import Gallery from './components/Gallery';
 import Footer from './components/Footer';
 import Countdown from './components/Countdown';
+import ConfirmationForm from './components/ConfirmationForm';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <EventDetails />
       <Location />
       <Gallery />
+      <ConfirmationForm />
       <Footer />
     </div>
   );

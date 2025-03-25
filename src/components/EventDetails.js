@@ -111,8 +111,8 @@ const EventDetails = () => {
             </IconContainer>
             <CardTitle>Cerimônia</CardTitle>
             <CardText>
-              A cerimônia de casamento será realizada às 17h do dia 30 de Abril de 2025.
-              Contamos com sua presença neste momento tão especial.
+              A cerimônia de casamento será realizada às 16h do dia 30 de Abril de 2025. No cartório do Colorado.
+              Devido à limitação de espaço, somente 20 convidados poderão participar.
             </CardText>
           </EventCard>
           
@@ -123,7 +123,7 @@ const EventDetails = () => {
             <CardTitle>Comemoração</CardTitle>
             <CardText>
               Após a cerimônia, gostaríamos de celebrar este momento com uma pequena comemoração
-              no Restaurante Potiguar em Planaltina-DF, a partir das 18h.
+              no Restaurante Potiguar em Planaltina-DF, a partir das 17h.
             </CardText>
           </EventCard>
           
